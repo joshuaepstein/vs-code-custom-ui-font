@@ -4,8 +4,8 @@ import { homedir } from 'os';
 import { readFileSync, readFile, writeFileSync, writeFile, promises as fsPromises, existsSync, mkdirSync, rmdir } from 'fs';
 
 let appDataPath = process.env.APPDATA;
-let workbenchCSS = path.join(appDataPath as string, '..\\Local\\Programs\\Microsoft VS Code\\resources\\app\\out\\vs\\workbench\\workbench.desktop.main.css');
-let workbenchJS = path.join(appDataPath as string, '..\\Local\\Programs\\Microsoft VS Code\\resources\\app\\out\\vs\\workbench\\workbench.desktop.main.js');
+let workbenchCSS = path.join('C:\\Program Files\\Microsoft VS Code\\resources\\app\\out\\vs\\workbench\\workbench.desktop.main.css');
+let workbenchJS = path.join('C:\\Program Files\\Microsoft VS Code\\resources\\app\\out\\vs\\workbench\\workbench.desktop.main.js');
 
 interface FontSettings {
 	currentFont: string;
